@@ -1,0 +1,25 @@
+.yellow{
+  background: yellow;
+  height: 20em;
+  color: white;
+}
+
+.red{
+  background: red;
+  height: 20em;
+}
+
+.blue{
+  background: blue;
+  height: 20em;
+}
+
+.darkred{
+  background: darkred;
+  height: 20em;
+}
+
+.white{
+  background: white;
+  height: 20em;
+}

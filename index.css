@@ -1,0 +1,52 @@
+/* Layout */
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  background: pink;
+}
+
+.column-section {
+  width: 80px;
+  float: left;
+  height: 400px;
+  overflow: scroll;
+}
+
+#reflection {
+  clear: both;
+}
+
+.column-section, footer, header, #reflection {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Color */
+
+body {
+  color: gray;
+  width: 500px;
+}
+
+header h1 {
+  color: white;
+}
+
+/* Typography */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media (max-width: 960) {
+  body {
+    width: 100%;
+  }
+
+  .column-section {
+    float: none;
+    width: inherit;
+  }
+}
